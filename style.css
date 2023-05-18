@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Lao', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.control {
+    border: none;
+    outline: none;
+    padding: 6px 15px 6px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.control:active {
+    transform: scale(0.98);
+}
+
+.record {
+    color: #fff;
+    background: #e74c3c;
+}
+
+.pause {
+    color: #fff;
+    background: #1abc9c;
+}
+
+.title {
+    color: #fff;
+    background: #16a085;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
